@@ -1,7 +1,7 @@
 import pydobot
 import dobot_tools
 
-dobot_port = ""
+dobot_port = "/dev/tty.usbserial"
 device = pydobot.Dobot(port=dobot_port)
 
 #device.move_to(100, 0, 0, 0, wait=True)
